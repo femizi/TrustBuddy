@@ -7,7 +7,7 @@ const Main = () => {
             <aside className='flex-grow border basis-[20%]'>
 
             </aside>
-            <section className='basis-0 grow-[999] min-w-[80%] border px-[5vw] '>
+            <section className='basis-0 grow-[999] min-w-[80%] border  '>
                 <Header />
                 <article>
 

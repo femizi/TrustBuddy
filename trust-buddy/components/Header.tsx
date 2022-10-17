@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header className='flex | justify-between  |  py-2 | flex-col | md:flex-row | gap-2'>
+        <header className='flex | justify-between  |  py-2 | flex-col | md:flex-row | gap-2 bg-gradient-to-r from-[#fff] via-[#fff] to-[#EAFEF8] px-[5vw]'>
             <div>
                 <h1 className=' text-2xl | font-medium | font-inter | text-[#3C3C3C]'> Welcome Back, Femi!</h1>
                 <h2 className='font-nunito-sans|text-[#515151] | font-semibold | text-base'>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Dashboard from './Dashboard'
 import Header from './Header'
 
 const Main = () => {
@@ -9,9 +10,7 @@ const Main = () => {
             </aside>
             <section className='basis-0 grow-[999] min-w-[80%] border  '>
                 <Header />
-                <article>
-
-                </article>
+               <Dashboard/>
             </section>
         </main>
     )

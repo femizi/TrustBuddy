@@ -11,6 +11,9 @@ module.exports = {
         'nunito-sans':['Nunito Sans'],
         'poppins':['Poppins'],
         'inter':['Inter']
+      },
+      colors:{
+        'brand2': '#EAFFF9'
       }
     },
   },

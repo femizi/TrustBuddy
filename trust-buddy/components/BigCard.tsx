@@ -41,16 +41,29 @@ const BigCard = () => {
                                 </div>
                     </div>
                 </div>
-                <div className="bg-[#EAFFF9]/50 | rounded-3xl | p-3">
+                <div className="bg-[#EAFFF9]/50 | rounded-3xl | p-3 | flex | flex-col">
                     <h4> Order Status</h4>
                     <div>Total Orders for the Month</div>
-                    <div className="grid | grid-cols-[1.4fr_0.6fr] | gap-2 | h-full bg-red-500 | ">
-                        <div className="text-center">
-                        <svg className="self-center" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className="grid | grid-cols-[1.4fr_0.6fr] | gap-4 | h-full  | ">
+                        <div className="text-center | self-center | bg-red-500 | ">
+                            <div className="flex | justify-center">
+                            <svg className="self-center" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4.61624 0.111488L8.9231 7.5712H0.309371L4.61624 0.111488Z" fill="#00811C" />
                     </svg>
-                            76%</div>
-                        <div></div>
+                           <div> 76%</div> 
+                            </div>
+                        </div>
+                        <div className="grid | grid-cols-[0.2fr_1.8fr] | py-12 | gap-2 ">
+                            <div className="bg-[#2D941C] rounded-sm">m</div>
+                            <div> Delivered</div>
+                            <div className="bg-[#2D941C] rounded-sm" >m</div>
+                            <div> Cancelled</div>
+                            <div className="bg-[#2D941C] rounded-sm">m</div>
+                            <div>Pending</div>
+                            <div className="bg-[#2D941C] rounded-sm">m</div>
+                            <div>Offline</div>
+
+                        </div>
                     </div>
 
                 </div>

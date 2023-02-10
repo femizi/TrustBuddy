@@ -13,7 +13,12 @@ module.exports = {
         'inter':['Inter']
       },
       colors:{
-        'brand2': '#EAFFF9'
+        'brand2': '#EAFFF9',
+        'delivered': '#2D941C',
+        'cancelled': '#F71616',
+        'pending': '#2E3192',
+        'offline': '#D9D9D9',
+
       }
     },
   },
